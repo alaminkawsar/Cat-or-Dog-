@@ -26,7 +26,7 @@ class Animal {
     // Classified results
     var results: [Result]
     
-    let modelFile = try! MobileNetV2(configuration: MLModelConfiguration())
+    let modelFile = try! CatOrDog1(configuration: MLModelConfiguration())
     
     init() {
         self.imageUrl = ""
