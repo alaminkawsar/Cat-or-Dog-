@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0BBEF627CFE39B0090FDFD /* CatOrDog.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BBEF527CFE39B0090FDFD /* CatOrDog.mlmodel */; };
 		1D38F99E27CE190800D44BDB /* Cat_or_Dog_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F99D27CE190800D44BDB /* Cat_or_Dog_App.swift */; };
 		1D38F9A027CE190800D44BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F99F27CE190800D44BDB /* ContentView.swift */; };
 		1D38F9A227CE190A00D44BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D38F9A127CE190A00D44BDB /* Assets.xcassets */; };
@@ -17,10 +16,10 @@
 		1D38F9B027CE1B0C00D44BDB /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F9AF27CE1B0C00D44BDB /* MobileNetV2.mlmodel */; };
 		1D38F9B227CE1C7200D44BDB /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F9B127CE1C7200D44BDB /* Animal.swift */; };
 		1D38F9B427CE1DDA00D44BDB /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F9B327CE1DDA00D44BDB /* AnimalModel.swift */; };
+		1D63E95F27CFE7730079B82A /* CatAndDogs 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D63E95E27CFE7730079B82A /* CatAndDogs 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D0BBEF527CFE39B0090FDFD /* CatOrDog.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatOrDog.mlmodel; sourceTree = "<group>"; };
 		1D38F99A27CE190800D44BDB /* Cat or Dog?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat or Dog?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D38F99D27CE190800D44BDB /* Cat_or_Dog_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_or_Dog_App.swift; sourceTree = "<group>"; };
 		1D38F99F27CE190800D44BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		1D38F9AF27CE1B0C00D44BDB /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../../Downloads/Resources/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		1D38F9B127CE1C7200D44BDB /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		1D38F9B327CE1DDA00D44BDB /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		1D63E95E27CFE7730079B82A /* CatAndDogs 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "CatAndDogs 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				1D38F9AD27CE1AE800D44BDB /* Constants.swift */,
 				1D38F9B127CE1C7200D44BDB /* Animal.swift */,
 				1D38F9B327CE1DDA00D44BDB /* AnimalModel.swift */,
-				1D0BBEF527CFE39B0090FDFD /* CatOrDog.mlmodel */,
+				1D63E95E27CFE7730079B82A /* CatAndDogs 1.mlmodel */,
 				1D38F9AF27CE1B0C00D44BDB /* MobileNetV2.mlmodel */,
 				1D38F9A127CE190A00D44BDB /* Assets.xcassets */,
 				1D38F9A327CE190A00D44BDB /* Preview Content */,
@@ -160,7 +160,7 @@
 				1D38F9B427CE1DDA00D44BDB /* AnimalModel.swift in Sources */,
 				1D38F99E27CE190800D44BDB /* Cat_or_Dog_App.swift in Sources */,
 				1D38F9B027CE1B0C00D44BDB /* MobileNetV2.mlmodel in Sources */,
-				1D0BBEF627CFE39B0090FDFD /* CatOrDog.mlmodel in Sources */,
+				1D63E95F27CFE7730079B82A /* CatAndDogs 1.mlmodel in Sources */,
 				1D38F9AE27CE1AE800D44BDB /* Constants.swift in Sources */,
 				1D38F9B227CE1C7200D44BDB /* Animal.swift in Sources */,
 			);
