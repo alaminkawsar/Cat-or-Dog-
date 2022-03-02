@@ -10,7 +10,7 @@ import Foundation
 class AnimalModel: ObservableObject {
     
     @Published var animal = Animal()
-    
+        
     func getAnimal() {
         
         let stringUrl = Bool.random() ? catUrl : dogUrl
@@ -39,11 +39,11 @@ class AnimalModel: ObservableObject {
                         
                         let item = json.isEmpty ? [:] : json[0]
                         
-                        if let animal = Animal(json: item) {
+                        if let anim = Animal(json: item) {
                             DispatchQueue.main.sync {
                                 
-                                while animal.imageData == nil {}
-                                self.animal = animal
+                                //while animal.imageData == nil {}
+                                self.animal = anim
                             }
                         }
                     }

@@ -8,9 +8,11 @@
 import Foundation
 
 class Animal {
+    
     // image url as string
     var imageUrl: String
-    // Obptional Image data as Sata
+    
+    // Optional Image data as Sata
     var imageData: Data?
     
     init() {
@@ -28,7 +30,7 @@ class Animal {
         self.imageData = nil
         
         // Download the image data
-        getImage()
+        //getImage()
     }
     
     func getImage() {

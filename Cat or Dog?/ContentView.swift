@@ -14,11 +14,24 @@ struct ContentView: View {
     var body: some View {
         
         VStack{
+            
+            AsyncImage(url: URL(string: model.animal.imageUrl)){ image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .scaledToFill()
+            .clipped()
+            .edgesIgnoringSafeArea(.all)
+            
+            /*
             Image(uiImage: UIImage(data: model.animal.imageData ?? Data()) ?? UIImage())
                 .resizable()
                 .scaledToFill()
                 .clipped()
                 .edgesIgnoringSafeArea(.all)
+             */
+             
             
             HStack {
                 Text("What is it?")
@@ -27,6 +40,7 @@ struct ContentView: View {
                     .padding(.leading, 10)
                 Button{
                     self.model.getAnimal()
+                    //print(model.animal.imageData)
                 } label: {
                     Text("Next")
                         .bold()
@@ -34,7 +48,7 @@ struct ContentView: View {
             }
         }
         .onAppear(perform: model.getAnimal)
-        .opacity(model.animal.imageData == nil ? 0 : 1)
+        //.opacity(model.animal.imageData == nil ? 0 : 1)
        
     }
 }
